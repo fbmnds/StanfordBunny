@@ -2,7 +2,5 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="MainWindow"
         Title="" Height="450" Width="500">
-        <MediaElement
-            x:Name="Media">
-        </MediaElement> 
+        
 </Window>

@@ -55,11 +55,9 @@ let normal =
           let mutable n = Vector3D.CrossProduct(v - u, w - u)
           n.Normalize()
           for i in [i; j; k] do
-             /// TODO: is this correct?
-             /// for each neighbor mesh triangle will be an update on the corner normal vector
-             /// normal.[i] will happen to be the last normal vector calculated for the corner
-             /// depending on the order of the mesh data
+             /// the sum of normals is not normalized itself
              normal.[i] <- normal.[i] + n 
+        /// final normalization omitted
         Vector3DCollection normal
 
 let directionalLight (color, direction) =
