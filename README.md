@@ -7,4 +7,4 @@ WPF representation of the Stanford bunny ply file based on an article published 
 See also [post](http://fbmnds.blogspot.de/2014/04/stanford-bunny.html).
 
 
-![StanfordBunny.jpg](http://raw.github.com/fbmnds/StanfordBunny/blob/master/StanfordBunny.jpg)
+![StanfordBunny.jpg](http://github.com/fbmnds/StanfordBunny/blob/master/StanfordBunny.jpg?raw=true)
